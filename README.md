@@ -32,6 +32,14 @@ If everything goes well, you should see the default Bootstrap4 Starter template 
 
 ![alt text](https://raw.githubusercontent.com/papagoat/django-bootstrap4-boilerplate/master/screenshot.png)
 
+To access the admin page, you would need to create an admin superuser first.
+
+```sh
+$ python manage.py createsuperuser
+```
+
+Visit http://127.0.0.1:8000/admin and log in to the the admin page using your credentials.
+
 
 ## License
 **MIT License**
