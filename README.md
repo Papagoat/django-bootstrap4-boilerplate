@@ -10,14 +10,14 @@
 $ python3 -m venv myvenv
 $ source ./myvenv/bin/activate
 ```
-4. Install Django
+
+4. Install [pip](https://pip.pypa.io/en/stable/installing/)
+
+5. Install Django
 
 ```sh
 $ pip install django
 ```
-
-5. Install [pip](https://pip.pypa.io/en/stable/installing/)
-
 
 ## Usage
 
