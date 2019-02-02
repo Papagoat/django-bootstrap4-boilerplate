@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+
+{% if demo_list %}
+    {% for demo in demo_list %}
+      <h1>{{ demo.demo_title }}</h1>
+      <p class="lead">{{ demo.demo_description }}</p>
+    {% endfor %}
+    {% else %}
+      <h1>Django Bootstrap starter template</h1>
+      <p class="lead">Use this document as a way to quickly start any new django project.<br>All you get is this text and a mostly barebones HTML document.</p>
+{% endif %}
+
+{% endblock %}
