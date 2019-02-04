@@ -3,8 +3,8 @@
 ## Installation
 
 1. Install [Python](https://www.python.org/downloads/).
-2. Set up [VirtualENV](https://virtualenv.pypa.io/en/latest/)
-3. Activate your VirtualENV
+2. Set up [venv](https://docs.python.org/3/library/venv.html)
+3. Activate your virtual environment
 
 ```sh
 $ python3 -m venv myvenv
